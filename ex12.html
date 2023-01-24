@@ -1,0 +1,14 @@
+<meta charset="UTF-8">
+
+<script>
+    var produto = Number.parseFloat(prompt("Digite o valor do produto:"));
+
+    var desc = produto * 5 / 100;
+    var total = produto - desc;
+
+    document.write("O valor do produto é de: R$" + produto, ",00.");
+    document.write("<BR>");
+    document.write("O valor do desconto é de: " + desc, "%.");
+    document.write("<BR>");
+    document.write("Assim o valor do produto com desconto é de: R$" + total, ",00.");
+</script>

@@ -1,0 +1,19 @@
+<meta charset="UTF-8">
+
+<script>
+    var anoNascimento = Number(prompt("Digite seu ano de nascimento"));
+    var idade;
+
+    if(anoNascimento >= 1950) {
+        idade = 2023 - anoNascimento;
+    
+        if(idade >= 16) {
+        document.write("Você está apto a votar!");
+        } else {
+        document.write("Você está não apto a votar!");    
+        }
+    }     
+    else {
+        alert("Você digitou um valor inválido!!!!!!");
+    }
+</script>

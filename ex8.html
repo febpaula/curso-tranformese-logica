@@ -1,0 +1,24 @@
+<meta charset="UTF-8">
+
+<script>
+    //Ler o número e guardar numa variável
+    var km1 =Number.parseFloat(prompt("Digite numero em km:"));
+    
+    //Calcular em Metros
+    var metros= km1*1000;
+
+    //Calcular em Centimetros
+    var centimetro= km1*10000;
+
+    //Calcular em milimitro
+    var milimetro= km1*100000;
+
+    //Mostrar o resultado 
+    document.write("A distância de ", km1, "Km corresponde a: ");
+    document.write("<BR>");
+    document.write("Quantidade : " + metros + "Ms");
+    document.write("<BR>");
+    document.write("Quantidade : " + centimetro + "Cm");
+    document.write("<BR>");
+    document.write("Quantidade : " + milimetro + "Mm")
+</script>
